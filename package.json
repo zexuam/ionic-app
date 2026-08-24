@@ -8,7 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "ionic:build": "nuxt build"
+    "ionic:build": "nuxt generate"
   },
   "dependencies": {
     "@capacitor/android": "^8.5.0",
