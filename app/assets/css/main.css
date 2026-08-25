@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ion-background-color: black;
+    --ion-background-color-rgb: 0, 0, 0;
+    --ion-text-color: white;
+    --ion-border-color: red;
+  }
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --ion-background-color: white;
+    --ion-background-color-rgb: 255, 255, 255;
+    --ion-text-color: black;
+    --ion-border-color: blue;
+  }
+}

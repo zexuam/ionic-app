@@ -1,0 +1,21 @@
+:root {
+  --ion-background-color: black;
+  --ion-background-color-rgb: 0, 0, 0;
+  --ion-text-color: white;
+  --ion-border-color: red;
+}
+/* 
+.ion-palette-dark {
+  --background: black;
+  --background-rgb: 0, 0, 0;
+} */
+.ion-palette-light {
+  --ion-background-color: white;
+  --ion-text-color: black;
+  --ion-border-color: red;
+}
+
+ion-card[color="dark"] {
+  --background: blue;
+  --color: red;
+}
